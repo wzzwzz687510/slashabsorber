@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "slashabsorber:items/best_sword"
+  }
+}

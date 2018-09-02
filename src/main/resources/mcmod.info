@@ -1,0 +1,16 @@
+[
+{
+  "modid": "slashabsorber",
+  "name": "Slash Absorber",
+  "description": "A mod full of slashing and killing.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/wzzwzz687510/slashabsorber/wiki",
+  "updateUrl": "https://github.com/wzzwzz687510/slashabsorber/tags",
+  "authorList": ["wzzwzz687510"],
+  "credits": "wing",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
