@@ -11,14 +11,18 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.client.model.ModelLoader;
+import net.minecraftforge.oredict.OreDictionary;
 
 public class ItemLoader
 {
     public static Item itemBestSword = new ItemBestSword().setUnlocalizedName("bestSword");
     public static Item itemTitaniumIngot = new ItemTiantiumIngot().setUnlocalizedName("titaniumIngot");
+
     public static void init() {
         ForgeRegistries.ITEMS.register(itemBestSword.setRegistryName("best_sword"));
         ForgeRegistries.ITEMS.register(itemTitaniumIngot.setRegistryName("titanium_ingot"));
+
+        OreDictionary.registerOre("ingotTitanium", itemTitaniumIngot);
     }
 
     @SideOnly(Side.CLIENT)

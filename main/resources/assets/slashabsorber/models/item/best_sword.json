@@ -2,5 +2,9 @@
   "parent": "item/handheld",
   "textures": {
     "layer0": "slashabsorber:items/best_sword"
-  }
+  },
+  "overrides": [
+    { "predicate": { "isFansir": 0.0000000 }, "model": "slashabsorber:item/best_sword" },
+    { "predicate": { "isFansir": 1.0000000 }, "model": "slashabsorber:item/best_sword_broken" }
+  ]
 }
