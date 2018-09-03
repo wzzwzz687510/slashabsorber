@@ -33,7 +33,4 @@ public class ItemLoader
                 new ModelResourceLocation(itemTitaniumIngot.getRegistryName(), "inventory"));
     }
 
-    public static void addSmelting(){
-        GameRegistry.addSmelting(BlockLoader.blockIlmenite, new ItemStack(itemTitaniumIngot), 0.5f);
-    }
 }

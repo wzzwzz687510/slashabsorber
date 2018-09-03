@@ -11,12 +11,13 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 public class CommonProxy
 {
     public void preInit(FMLPreInitializationEvent event) {
+        new ConfigLoader(event);
         ItemLoader.init();
         BlockLoader.init();
     }
 
     public void init(FMLInitializationEvent event) {
-        ItemLoader.addSmelting();
+        new CraftingLoader();
         OreGenEventHandler.init();
     }
 
